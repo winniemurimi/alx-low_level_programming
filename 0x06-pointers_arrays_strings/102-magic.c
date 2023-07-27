@@ -3,6 +3,7 @@
 /*
  * main - print a is 98
  *
+ * Return: 0
  */
 int main(void)
 {
