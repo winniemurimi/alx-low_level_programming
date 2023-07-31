@@ -6,13 +6,13 @@
  */
 void print_chessboard(char (*a)[8])
 {
-	int i;
-	int j;
+	int m;
+	int n;
 
-	for (i = 0; i < 8; i++)
+	for (m = 0; m < 8; m++)
 	{
-		for (j = 0; j < 8; j++)
-			_putchar(a[i][j]);
+		for (n = 0; n < 8; n++)
+		_putchar(a[n][m]);
 		_putchar('\n');
 	}
 }
